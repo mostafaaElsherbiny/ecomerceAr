@@ -26,7 +26,7 @@
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">trans('admin.login')</p>
+      <p class="login-box-msg">{{ trans('admin.login') }}</p>
 
       <form  method="post">
         {!! csrf_field() !!}

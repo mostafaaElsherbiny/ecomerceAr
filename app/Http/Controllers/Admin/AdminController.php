@@ -35,6 +35,9 @@ class AdminController extends Controller
     public function forgetPassword(){
         return view('admin.resetpass');
     }
+    public function forgetPassword_p(Request $request){
+        return $request->all();
+    }
 }
 
 
